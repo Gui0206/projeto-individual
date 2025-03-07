@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Space Pong</title>
 
-  <style>
-    /* Remove margens do corpo da página e define fundo preto */
-    body {
-      margin: 0;
-      background: #000;
-    }
-
-    /* Centraliza o canvas do Phaser */
-    canvas {
-      display: block;
-      margin: auto;
-    }
-  </style>
+  <!-- Link para o CSS externo, se estiver em "css/style.css" -->
+  <link rel="stylesheet" href="./css/style.css" />
 
   <!-- Carrega a biblioteca Phaser via CDN para desenvolver o jogo -->
   <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
 
-  <!-- Importa o módulo principal do jogo -->
+  <!-- Importa o módulo principal do jogo (jogo.js), localizado em "js/jogo.js" -->
   <script type="module" src="./js/jogo.js"></script>
 </head>
 <body>
