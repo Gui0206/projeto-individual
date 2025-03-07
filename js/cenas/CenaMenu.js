@@ -5,7 +5,7 @@ export default class CenaMenu extends Phaser.Scene {
   
   preload() {
     // Carrega o background para o menu
-    this.load.image('background', '../../assets/background.jpg');
+    this.load.image('background', 'projeto-individual/assets/background.jpg');
   }
   
   create() {
