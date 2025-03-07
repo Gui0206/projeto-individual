@@ -1,12 +1,14 @@
+/* Define o estilo do corpo da página */
 body {
-  margin: 0;
-  padding: 0;
-  background: #222;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  margin: 0;         /* Remove margens */
+  padding: 0;        /* Remove espaçamentos internos */
+  background: #222;  /* Define um fundo cinza escuro */
+  color: #fff;       /* Define a cor do texto como branco */
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
 }
 
+/* Estiliza o canvas (área onde o jogo é renderizado) */
 canvas {
-  display: block;
-  margin: 0 auto;
+  display: block;  /* Remove espaços extras ao redor do canvas */
+  margin: 0 auto;  /* Centraliza o canvas horizontalmente */
 }
