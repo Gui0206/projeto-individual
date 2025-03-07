@@ -5,10 +5,10 @@ export default class CenaJogo extends Phaser.Scene {
   
   preload() {
     // Carrega os assets: cenário, bola e a imagem da raquete
-    this.load.image('background', '/assets/background.jpg');
-    this.load.image('bola', '/assets/guilherme-ball.png');
-    this.load.image('raquete', '/assets/tennis-racket.png');
-    this.load.image('plataforma', '/assets/plataforma.png')
+    this.load.image('background', 'assets/background.jpg');
+    this.load.image('bola', 'assets/guilherme-ball.png');
+    this.load.image('raquete', 'assets/tennis-racket.png');
+    this.load.image('plataforma', 'assets/plataforma.png')
   }
   
   create() {
